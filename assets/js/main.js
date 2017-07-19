@@ -1,8 +1,3 @@
-Tutorial.installCustomAction({
-    key: "dbl",
-    event: "dblclick"
-});
-
 kb = new Tutorial("nico<3", {
     steps: [
         {
@@ -48,3 +43,7 @@ function sayHello() {
     alert("yolo");
 }
 
+Tutorial.installCustomAction({
+    key: "dbl",
+    event: "dblclick"
+});
