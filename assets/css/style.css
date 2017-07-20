@@ -21,7 +21,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size:50px;
+    font-size:36px;
 }
 
 h1, h2, h3 {
@@ -94,7 +94,7 @@ pre {
 }
 
 #sidenav li.active a {
-    background: #59b6ec;
+    background: #53dab5;
     color: white;
 }
 
