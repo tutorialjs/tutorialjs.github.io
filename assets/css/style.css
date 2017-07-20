@@ -74,6 +74,25 @@ pre {
     margin-top: 100%;
 }
 
+#sidenav {
+    width:300px;
+}
+
+#sidenav li.nav-header {
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#sidenav li a {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 8px 15px;
+}
+
+#sidenav a:hover {
+    background: #f9f9f9 !important;
+}
+
 @media (max-width: 600px) {
     .section {
         width:100%;
