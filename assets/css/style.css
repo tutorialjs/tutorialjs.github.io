@@ -90,7 +90,12 @@ pre {
 }
 
 #sidenav a:hover {
-    background: #f9f9f9 !important;
+    background: #f9f9f9;
+}
+
+#sidenav li.active a {
+    background: #59b6ec;
+    color: white;
 }
 
 @media (max-width: 600px) {
