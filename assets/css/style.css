@@ -24,8 +24,14 @@ h1, h2, h3 {
     margin-bottom:15px;
 }
 
+h2 {
+    font-size:1.4rem;
+    margin-top:20px;
+}
+
 p {
     font-size:1.2rem;
+    margin-bottom:10px;
 }
 
 pre {
@@ -119,6 +125,10 @@ pre {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color:white;
     background-color:rgba(255, 255, 255, 0.2);
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin:0px;
 }
 
 @media (max-width: 600px) {

@@ -4,8 +4,22 @@ title: Get started
 ---
 
 <h1>Get started</h1>
-<p><strong>Installation</strong></p>
+<h2>Installation</h2>
 <pre class="prettyprint lang-css">
 <span><</span>link rel="stylesheet" href="tutorial.css" />
 <span><</span>script src="tutorial.js"><span><</span>/script>
+</pre>
+<h2>Initialize</h2>
+<pre class="prettyprint">
+var myguide = new Tutorial({
+    steps: [
+        {
+            highlight: ".first-element",
+            text: "my first text"
+        },
+        {
+            highlight: ".second-element",
+            text: "my second text"
+        }]
+)};
 </pre>
