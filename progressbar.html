@@ -1,0 +1,29 @@
+---
+layout: default
+title: Progressbar
+---
+
+<h1>Progressbar</h1>
+<p class="tut-step" t-step="1" t-text="This is the first step!" t-title="First step">This is the first step in our Tutorial!</p>
+<h2>Setup</h2>
+<pre class="prettyprint">
+var mytutorial = new Tutorial({
+    selector: "tut-step",
+    progressbar: true
+});
+</pre>
+
+<h2>HTML</h2>
+<pre class="prettyprint">
+<span><</span>p class="tut-step" t-step="1" t-text="This is the first step!" t-title="First-step"<span>></span>
+    This is the first step in our Tutorial!
+<span><</span>/p>
+</pre>
+<button class="btn-primary" onclick="mytutorial.start()">View Example</button>
+
+<script>
+    mytutorial = new Tutorial("mytutorial", {
+        selector: "tut-step",
+        progressbar: true
+    })
+</script>
