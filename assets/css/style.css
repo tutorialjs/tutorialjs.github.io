@@ -155,6 +155,17 @@ pre {
     margin:1.5rem 0rem;
 }
 
+.btn-primary {
+    margin: 20px 0px;
+    border: 0px;
+    background-color: #53dab5;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #5fe6c1;
+}
+
 @media (min-width: 992px) {
     .section {
         width:100%;
