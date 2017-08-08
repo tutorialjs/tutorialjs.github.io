@@ -19,9 +19,13 @@ var mytutorial = new Tutorial({
 <span><</span>/p>
 </pre>
 <button class="btn-primary" onclick="mytutorial.start()">View Example</button>
-
 <script>
     mytutorial = new Tutorial("mytutorial", {
-        selector: "tut-step"
-    })
+        steps: [
+            {
+                highlight: ".tut-step",
+                text: "loremipsum"
+            }
+        ]
+    });
 </script>
