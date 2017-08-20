@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Progressbar
+title: Custom position
 ---
 
-<h1>Progressbar</h1>
-<p id="first-step">A Progressbar at the bottom of the screen with title tooltips to see the current progress.</p>
+<h1>Custom position</h1>
+<p id="first-step">Its possible to set a custom position of the message box for each step.</p>
 <h2>Setup</h2>
 <pre class="prettyprint">
 var mytutorial = new Tutorial({
@@ -12,15 +12,16 @@ var mytutorial = new Tutorial({
         {
             highlight: "#first-step",
             title: "First step",
-            text: "Welcome to our app!"
+            text: "Welcome to our app!",
+            position: "right"
         },
         {
             highlight: "#second-step",
             title: "Second step",
-            text: "This is how you set it up"
+            text: "This is how you set it up",
+            position: "top"
         }
-    ],
-    progressbar: true
+    ]
 });
 </pre>
 
@@ -38,14 +39,15 @@ var mytutorial = new Tutorial({
             {
                 highlight: "#first-step",
                 title: "First step",
-                text: "Welcome to our app!"
+                text: "This is right to the highlighted content",
+                position: "right"
             },
             {
                 highlight: "#second-step",
                 title: "Second step",
-                text: "This is how you set it up"
+                text: "This is to the top of the highlighted content",
+                position: "top"
             }
-        ],
-        progressbar: true
+        ]
     })
 </script>
